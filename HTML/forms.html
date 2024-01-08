@@ -1,0 +1,71 @@
+<!--How to collect info from visitors, different kinds of form controls, new html5 form controls-->
+
+<!--TEXT-->
+<form action="formtest.html" method="post">
+<p>Username</p>
+<input type="text" name="username" maxlength="20"/>
+</form>
+
+<!--PASSWORD-->
+<form action="formtest.html" method="post">
+  <p>Password</p>
+<input type="password" name="password" maxlength="14"/>
+</form>
+
+<!--TEXT AREA-->
+<form action="formtest.html" method="get">
+  <p>What do you think of the username and password form?</p>
+  <textarea name="comment" cols="30" rows="3">Enter your response here...</textarea>
+</form>
+
+<!--RADIO-->
+<form action="formtest.html" method="get">
+  <p>Select your favorite icecream flavor</p>
+  <input type="radio" name="flavor" value="Vanilla"/>Vanilla
+  <input type="radio" name="flavor" value="Chocolate"/>Chocolate
+  <input type="radio" name="flavor" value="Strawberry"/>Strawberry
+</form>
+
+<!--CHECKBOX-->
+<form action="formtest.html" method="get">
+  <p>Select your favorite Games</p>
+  <input type="checkbox" name="games" value="Persona 5"/>Persona 5
+  <input type="checkbox" name="games" value="Devil May Cry 3"/>Devil May Cry 3
+  <input type="checkbox" name="games" value="Final Fantasy 7"/>Final Fantasy 7
+</form>
+
+<!--DROP DOWN-->
+<form action="formtest.html" method="get">
+  <p>Which console do you play the most on?</p>
+  <select name="consoles">
+    <option value="Xbox">Xbox</option>
+    <option value="Nintendo Switch">Nintendo Switch</option>
+    <option value="PC">PC</option>
+    <option value="Wii">Wii</option>
+  </select>
+</form>
+
+<!--
+<form action="formtest.html" method="get">
+  <p>Do you watch any of the following youtubers?</p>
+  <select name="youtubers" multiple="multiple" size="3">
+    <option value="Pewdiepie"></option>
+    <option value="Cut"></option>
+    <option value="Jollibee"></option>
+  </select>
+</form>
+-->
+
+<!--FILE UPLOAD-->
+<form action="formtest.html" method="get">
+  <p>Upload file here</p>
+  <input type="file" name="picture"><br>
+  <input type="submit" name="upload" value="upload">
+</form>
+
+<!--IMAGE UPLOAD FOR SUBMISSION-->
+<form action="formtest.html" method="get">
+  <p>Subscribe to our newsletter</p>
+  <input type="text" name="email"/>
+  <input type="image" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/subscribe-our-newsletter-1727146-1469011.png?f=webp" width="30" height="30" name="newsletter">
+</form>
